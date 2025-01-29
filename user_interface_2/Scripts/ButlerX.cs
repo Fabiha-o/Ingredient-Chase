@@ -58,6 +58,8 @@ public class ButlerX : MonoBehaviour
 
     private void Update()
     {
+        if(!PauseMenu.isPaused)
+        {
         if (playerStats.health > 0)
         {
             HandlePlayerMovement();
@@ -77,6 +79,7 @@ public class ButlerX : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && canUseShield)
         {
             StartCoroutine(ActivateShield());
+        }
         }
     }
 

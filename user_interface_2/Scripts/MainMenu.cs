@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Make sure this is included
 
 public class MainMenu : MonoBehaviour
 {
