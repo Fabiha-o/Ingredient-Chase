@@ -13,8 +13,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
-    public void Story()
+    public void Level()
     {
-        SceneManager.LoadScene("Story");
+        SceneManager.LoadScene("LevelSelection");
     }
 }
